@@ -1,6 +1,0 @@
-[07-Mar-2012 19:47:27] PHP Warning:  include(php5-ofc-library/open-flash-chart.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/charlesd/public_html/weight/testing/hello.php on line 3
-[07-Mar-2012 19:47:27] PHP Warning:  include(php5-ofc-library/open-flash-chart.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/charlesd/public_html/weight/testing/hello.php on line 3
-[07-Mar-2012 19:47:27] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'php5-ofc-library/open-flash-chart.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/charlesd/public_html/weight/testing/hello.php on line 3
-[07-Mar-2012 19:47:27] PHP Fatal error:  Class 'title' not found in /home/charlesd/public_html/weight/testing/hello.php on line 15
-[07-Mar-2012 19:47:46] PHP Fatal error:  Class 'title' not found in /home/charlesd/public_html/weight/testing/hello.php on line 15
-[07-Mar-2012 19:47:47] PHP Fatal error:  Class 'title' not found in /home/charlesd/public_html/weight/testing/hello.php on line 15
