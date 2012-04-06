@@ -238,7 +238,7 @@ if(isset($_GET['logout'])){
 if((isset($_GET['login']) && ($_SESSION['activeUser']==null)) || (isset($_GET['state']) && $_GET['state'])){
     $app_id = "315302831857063";
     $app_secret = "7194e1b0ba11c5d02d8be698565251d9";
-    $my_url = "http://www.charlesdthompson.com/weight/index2original.php";
+    $my_url = "http://www.charlesdthompson.com/weight/index.php";
     $code = $_REQUEST["code"];
     
     if(empty($code)) {
@@ -270,7 +270,7 @@ if((isset($_GET['login']) && ($_SESSION['activeUser']==null)) || (isset($_GET['s
         $fbInfo->link,
         $fbInfo->name,$params->access_token,$fbInfo->username
      );
-     header('Location: index2original.php');
+     header('Location: index.php');
      //print_r($_SESSION);
     
     }
