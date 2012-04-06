@@ -1,0 +1,7 @@
+#Redirect rules
+Redirect /weight/index2.php http://www.%{HTTP_HOST}/weight/index.php
+
+#Rewrite rules
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/weight/$1 [R=301,L]
